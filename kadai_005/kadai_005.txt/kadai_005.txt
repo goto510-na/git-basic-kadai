@@ -1,0 +1,29 @@
+gotonahoko@atofujikonpyuta kadai_005 % mkdir git_challenge
+gotonahoko@atofujikonpyuta kadai_005 % cd git_challenge
+touch: hello_world/txt: No such file or directory
+gotonahoko@atofujikonpyuta git_challenge % touch hello_world.txt
+gotonahoko@atofujikonpyuta git_challenge % git init
+Initialized empty Git repository in /Users/gotonahoko/Desktop/kadai_005/git_challenge/.git/
+gotonahoko@atofujikonpyuta git_challenge % git add .
+gotonahoko@atofujikonpyuta git_challenge % git commit -m"hello_world.txtを追加"
+[main (root-commit) 2c9598d] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+gotonahoko@atofujikonpyuta git_challenge % git add .  
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+gotonahoko@atofujikonpyuta git_challenge % git add .
+gotonahoko@atofujikonpyuta git_challenge % git commit -m"hello_world.txtを追加"
+[main 4ad8ee4] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+gotonahoko@atofujikonpyuta git_challenge % git add .
+gotonahoko@atofujikonpyuta git_challenge % git commit -m"日本語訳を追加"
+[main 9a09935] 日本語訳を追加
+ 1 file changed, 1 insertion(+)
+gotonahoko@atofujikonpyuta git_challenge % git log --oneline
+9a09935 (HEAD -> main) 日本語訳を追加
+4ad8ee4 hello_world.txtを追加
+2c9598d hello_world.txtを追加
+gotonahoko@atofujikonpyuta git_challenge % 
